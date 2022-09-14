@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # To incorporate the API keys added to secrets  
+      - name: Incorporate API 
+        run: |
+          echo $
+        env: 
+          COHERE_SECURE: ${{ secrets.COHERE_API_KEY }}
+
