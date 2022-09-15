@@ -36,8 +36,8 @@ jobs:
           echo test, and deploy your project.
 
       # To incorporate the API keys added to secrets  
-      - name: Log the secret (API key)
-        run: echo $ try to log the api key
+     # - name: Log the secret (API key)
+      #  run: echo $ try to log the api key
         # env: 
         #   COHERE_SECURE: ${{ secrets.COHERE_API_KEY }}
         
