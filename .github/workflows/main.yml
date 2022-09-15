@@ -37,8 +37,7 @@ jobs:
 
       # To incorporate the API keys added to secrets  
       - name: Log the secret (API key)
-        run: |
-          echo $ {{ secrets.COHERE_API_KEY }}
+        run: echo $ {{ secrets.COHERE_API_KEY }}
         # env: 
           # COHERE_SECURE: ${{ secrets.COHERE_API_KEY }}
         # run:
