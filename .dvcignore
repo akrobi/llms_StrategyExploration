@@ -1,0 +1,4 @@
+# to specicy which dvc files to not track
+
+# .dvc/cache
+# .dvc/temp
